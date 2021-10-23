@@ -33,10 +33,16 @@ fun solution(A: IntArray, B: IntArray): Int? {
         for (i in 1 until sizeArray) {
             println("i is : $i")
             println(i)
-            var res0: Int? = A.toMutableList().chunked(i)[0].sum()
-            var res1: Int? = A.toMutableList().chunked(i)[1].sum()
-            var res2: Int? = B.toMutableList().chunked(i)[0].sum()
-            var res3: Int? = B.toMutableList().chunked(i)[1].sum()
+//            var res0: Int? = A.toMutableList().chunked(i)[0].sum()
+//            var res1: Int? = A.toMutableList().chunked(i)[1].sum()
+//            var res2: Int? = B.toMutableList().chunked(i)[0].sum()
+//            var res3: Int? = B.toMutableList().chunked(i)[1].sum()
+
+            var res0 = A.toMutableList().subList(0,i).sum()
+            var res1 = A.toMutableList().subList(i,sizeArray).sum()
+
+            var res2 = B.toMutableList().subList(0,i).sum()
+            var res3 = B.toMutableList().subList(i,sizeArray).sum()
 
             println("res0 is: $res0")
 

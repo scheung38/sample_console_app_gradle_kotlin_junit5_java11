@@ -1,70 +1,0 @@
-sizeArray is 5
-	i is : 1
-1
-res0 is: 0
-	No match
-	i is : 2
-2
-res0 is: 4
-	No match
-	i is : 3
-3
-res0 is: 3
-	i is : 4
-4
-res0 is: 3
-Final fairAccumulated is 2
-sizeArray is 4
-	i is : 1
-1
-res0 is: 2
-	No match
-	i is : 2
-2
-res0 is: 0
-	i is : 3
-3
-res0 is: -3
-	No match
-Final fairAccumulated is 1
-sizeArray is 4
-	i is : 1
-1
-res0 is: 4
-	No match
-	i is : 2
-2
-res0 is: 3
-	No match
-	i is : 3
-3
-res0 is: 3
-	No match
-Final fairAccumulated is 0
-sizeArray is 3
-	i is : 1
-1
-res0 is: 3
-	No match
-	i is : 2
-2
-res0 is: 5
-	No match
-Final fairAccumulated is 0
-sizeArray is 5
-	i is : 1
-1
-res0 is: 1
-	No match
-	i is : 2
-2
-res0 is: 5
-	No match
-	i is : 3
-3
-res0 is: 7
-	No match
-	i is : 4
-4
-res0 is: 5
-Final fairAccumulated is 1
