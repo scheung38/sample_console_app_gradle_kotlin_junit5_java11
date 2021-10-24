@@ -7,4 +7,6 @@ In that case use:
 
 git rm -r --cached myFolder
 
+https://stackoverflow.com/questions/57240799/difference-between-list-sublist-and-slice-in-kotlin
+
 https://stackoverflow.com/questions/6313126/how-to-remove-a-directory-from-git-repository
